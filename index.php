@@ -1,7 +1,7 @@
 <?php
 $insert = false;
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['name'])) {
-    // Set connection variables
+    // Set connection variables 
     $server = "localhost";
     $username = "root";
     $password = "";
